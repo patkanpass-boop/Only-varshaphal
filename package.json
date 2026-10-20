@@ -1,0 +1,12 @@
+{
+  "name": "varshaphal",
+  "version": "2.0.0",
+  "description": "Offline Tajika Varshaphal (annual chart) app following Tajika Nilakanthi and B.V. Raman",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "test": "node tests/run.js",
+    "check": "node build.js && node tests/run.js"
+  },
+  "engines": { "node": ">=18" }
+}
